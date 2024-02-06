@@ -18,6 +18,12 @@ export default function TabsSection({ active, onChange }) {
       >
         Модальное окно
       </Button>
+      <Button
+        isActive={active === "appThree"}
+        onClick={() => onChange("appThree")}
+      >
+       Опросник
+      </Button>
     </section>
   )
 }
