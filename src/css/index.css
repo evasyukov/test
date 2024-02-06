@@ -33,3 +33,10 @@ button {
 .menu {
   margin-left: 10px;
 }
+
+dialog{
+  position: fixed;
+  /* top: 50%; */
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

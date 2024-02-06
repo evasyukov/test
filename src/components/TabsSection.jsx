@@ -10,7 +10,13 @@ export default function TabsSection({ active, onChange }) {
         isActive={active === "appOne"}
         onClick={() => onChange("appOne")}
       >
-        App 1
+        Счетчик
+      </Button>
+      <Button
+        isActive={active === "appTwo"}
+        onClick={() => onChange("appTwo")}
+      >
+        Модальное окно
       </Button>
     </section>
   )
