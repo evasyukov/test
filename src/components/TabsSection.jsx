@@ -24,6 +24,12 @@ export default function TabsSection({ active, onChange }) {
       >
        Опросник
       </Button>
+      <Button
+        isActive={active === "appFour"}
+        onClick={() => onChange("appFour")}
+      >
+       Калькулятор
+      </Button>
     </section>
   )
 }
